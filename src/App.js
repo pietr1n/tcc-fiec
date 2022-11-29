@@ -71,13 +71,14 @@ const App = () => {
       <Route path='/user-form' element={<UserForm />}/>
       <Route path='/user-form/:id' element={<UserForm />} />
       <Route path='/users' element={<UsersTable />} />
-      <Route path='*' element={<TopCausos />} /> 
+      <Route path='*' element={<TopCausos />} />
+      <Route path='about' element={<AboutUs />} /> 
   
       </> :
       
       <>
       <Route path='Auth' element={<Auth/>} /> 
-      <Route path='*' element={<Home token={fcmToken} />} /> 
+      <Route path='*'element={<TopCausos/>}/> 
       </> 
       }
     </Routes>
