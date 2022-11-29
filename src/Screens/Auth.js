@@ -45,7 +45,7 @@ const Auth = (props) => {
                 <input type="checkbox" name="" /><span>Entrar como revisor</span>
             </div>
             <div className="google">
-                <button type="submit"><Link to ={"Auth"}>Login com <img src={logoGoogle}/></Link></button>
+                <button type="submit"><Link to ={"*"}>Login com <img src={logoGoogle}/></Link></button>
             </div>
         </form>
       </div>
