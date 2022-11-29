@@ -30,7 +30,7 @@ const Home = () => {
                             <p id="text_2">"Não sou velha. Sou uma <br />
                                 adolescente vintage."</p>
                                 <div className="btns_flex">
-                                <button className="btns" id="session"><Link id="sessão" to ={"*"}>Inicie sua sessão</Link></button>
+                                <button className="btns" id="session"><Link id="sessão" to ={"Auth"}>Inicie sua sessão</Link></button>
                             </div>
                         </div>
                            
